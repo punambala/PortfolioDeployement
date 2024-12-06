@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <title>Portfolio</title>
+
+
+
+</head>
+
+<body>
+    <!-- Canvas for particles effect -->
+    <canvas id="canvas1"></canvas>
+
+
+    <!-- Header section -->
+    <header class="header">
+
+        <!-- Logo -->
+        <a href="#home" class="logo-name" id="logo-name">Portfolio</a>
+        <a href="#home" class="logo-portfolio" id="logo-portfolio" style="display:none;">Yash</a>
+        <i class='bx bx-menu' id="menu-btn"></i>
+        <nav class="menu-bar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="social-media">
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-github'></i></a>
+        </div>
+        <!-- Mood and Theme Toggle Button -->
+        <div class="theme-toggle">
+            <button id="theme-button">
+                <i class="bx bx-moon" id="theme-icon"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Home section -->
+
+    <section class="home" id="home">
+
+        
+    
+        <div class="home-bio">
+            <h3>This is</h3>
+            <h1>My Portfolio</h1>
+            <h3>I am a <span class="animated-text">Web Developer</span></h3>
+            <p>A passionate individual who always thrives to work on end-to-end products which develop sustainable and
+                scalable social and technical systems to create impact.</p>
+            <!-- Let's Talk button -->
+            <a href="#contact" class="btn">Let's Talk</a>
+        </div>
+    
+        <div class="profile-pic">
+            <img src="images/profile-pic.jpg" alt="Profile Picture">
+        </div>
+    </section>
+
+
+    <!-- About section -->
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About <span>Me</span></h2>
+        </div>
+
+        <div class="about-items">
+            <div class="about-resume">
+                <h3>Front-End & Back-End Web Developer</h3>
+                <a href="#" class="btn">Download Resume</a>
+            </div>
+            <div class="about-text">
+                <p>Hello! I'm Yash, a passionate web developer with a strong background in creating dynamic and
+                    responsive websites and applications. I hold a certificate in Python OOP from Udemy, and I have a
+                    keen interest in building products that make a significant impact. My journey in web development
+                    started with a curiosity for how websites are built, and over the years, I've honed my skills in
+                    various programming languages and technologies.</p>
+                <p>I specialize in front-end development with experience in HTML, CSS, JavaScript, and modern frameworks
+                    like React and Angular. On the back-end, I am proficient in Django and have experience working with
+                    databases such as MySQL and PostgreSQL. I enjoy solving complex problems and am always eager to
+                    learn new technologies and improve my craft.</p>
+                <p>When I'm not coding, you can find me exploring new tech trends, reading about the latest advancements
+                    in web development, or working on side projects that challenge my creativity. I thrive in
+                    collaborative environments and am always looking for opportunities to work on innovative projects
+                    with like-minded individuals.</p>
+                <p>Feel free to explore my portfolio to see some of the projects I've worked on. I'm excited to connect
+                    with you and discuss how we can collaborate to create something amazing together!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+        <div class="heading">
+            <h2>My <span>Skills</span></h2>
+        </div>
+        <div class="skills-items">
+            <div class="skills-card">
+                <i class='bx bxl-html5'></i>
+                <h3>HTML</h3>
+                <p>Proficient in crafting structured, semantic, and accessible HTML documents that form the backbone of
+                    well-organized web applications.</p>
+            </div>
+            <div class="skills-card">
+                <i class='bx bxl-css3'></i>
+                <h3>CSS</h3>
+                <p>Experienced in creating visually appealing and responsive designs using CSS, ensuring compatibility
+                    across various devices and browsers.</p>
+            </div>
+            <div class="skills-card">
+                <i class='bx bxl-javascript'></i>
+                <h3>JavaScript</h3>
+                <p>Skilled in JavaScript for developing interactive and dynamic web applications, leveraging modern ES6+
+                    features and frameworks.</p>
+            </div>
+            <div class="skills-card">
+                <i class='bx bxl-nodejs'></i>
+                <h3>Node.js</h3>
+                <p>Proficient in building scalable server-side applications using Node.js, focusing on performance and
+                    maintainability.</p>
+            </div>
+            <div class="skills-card">
+                <i class='bx bxl-react'></i>
+                <h3>React.js</h3>
+                <p>Experienced in building modular and reusable components using React, enhancing user experiences
+                    through efficient state management.</p>
+            </div>
+            <div class="skills-card">
+                <i class='bx bxl-github'></i>
+                <h3>GitHub</h3>
+                <p>Familiar with version control systems, especially Git and GitHub, for collaborative development and
+                    effective project management.</p>
+            </div>
+            <div class="skills-card">
+                <i class='bx bxl-python'></i>
+                <h3>Python</h3>
+                <p>Strong command of Python for back-end development, scripting, and data analysis, with a focus on
+                    clean and readable code.</p>
+            </div>
+            <div class="skills-card">
+                <i class='bx bxl-mongodb'></i>
+                <h3>MongoDB</h3>
+                <p>Knowledgeable in MongoDB for handling NoSQL databases, ensuring efficient data storage and retrieval
+                    for applications.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+        <div class="heading">
+            <h2>Completed <span>Projects</span></h2>
+        </div>
+        <div class="projects-items">
+            <div class="projects-card">
+                <img src="images/pf.card1.jpg" alt="Project 1">
+                <div class="card-overlay">
+                    <a href="#"><i class='bx bx-link-alt'></i></a>
+                </div>
+            </div>
+            <div class="projects-card">
+                <img src="images/pf.card2.png" alt="Project 2">
+                <div class="card-overlay">
+                    <a href="#"><i class='bx bx-link-alt'></i></a>
+                </div>
+            </div>
+            <div class="projects-card">
+                <img src="images/pf.card3.png" alt="Project 3">
+                <div class="card-overlay">
+                    <a href="#"><i class='bx bx-link-alt'></i></a>
+                </div>
+            </div>
+            <div class="projects-card">
+                <img src="images/pf.card4.png" alt="Project 4">
+                <div class="card-overlay">
+                    <a href="#"><i class='bx bx-link-alt'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+        <div class="heading">
+            <h2>Contact<span> Me</span></h2>
+        </div>
+        <form action="#" class="form">
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <textarea cols="30" rows="4" placeholder="Your Message"></textarea>
+            <input type="submit" class="btn" value="Send Message">
+        </form>
+    </section>
+
+    <!-- Footer section -->
+    <footer class="footer">
+        <hr>
+        <p>Copyright &copy; 2024 A Coder in Yash<br> All Rights Reserved.</p>
+    </footer>
+
+    <!-- Scroll Reveal section -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Typing section -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- JS script file -->
+    <script src="script.js"></script> <!-- Check if it's loading after DOM elements -->
+</body>
+
+</html>
